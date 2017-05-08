@@ -3,7 +3,7 @@ FROM node:7.9.0-alpine
 RUN mkdir -p /usr/app/src
 WORKDIR /usr/app/src
 COPY package.json ./
-npm install
+RUN npm install
 COPY . /usr/app/src
 
 EXPOSE 3000
