@@ -1,0 +1,24 @@
+{
+  "name": "dockernodesample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mideveloper/dockernodesample.git"
+  },
+  "author": "mideveloper",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mideveloper/dockernodesample/issues"
+  },
+  "homepage": "https://github.com/mideveloper/dockernodesample#readme",
+  "dependencies": {
+    "express": "^4.15.2",
+    "pg": "^6.1.5",
+    "sequelize": "^3.30.4"
+  }
+}
