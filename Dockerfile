@@ -8,5 +8,4 @@ RUN yarn
 COPY . /usr/app/src
 
 EXPOSE 3000
-CMD ["DEBUG=docker-demo:*"]
-ENTRYPOINT ["npm", "run", "start"]
+ENTRYPOINT ["node", "index.js"]
